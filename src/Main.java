@@ -40,7 +40,7 @@ public class Main {
                 System.out.println("Cannot perform calculation");
             }
 
-            System.out.println("Do you want to calculate again ? (Y)\nPress other to exit");
+            System.out.println("Do you want to calculate again ? (Y)\nPress any other to exit");
 
             String answer = scanner.next().toLowerCase();
 
