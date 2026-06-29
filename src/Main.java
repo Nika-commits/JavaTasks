@@ -16,8 +16,8 @@ public class Main {
 
                 System.out.println("Enter the type of Calculation you want to perform ? (Add, Subtract, Multiply, Divide)");
 
-                String typeOfCalc = scanner.next().toUpperCase();
-                Calculations calculations = Calculations.valueOf(typeOfCalc);
+//                String typeOfCalc = scanner.next().toUpperCase();
+                Calculations calculations = Calculations.valueOf(scanner.next().toUpperCase());
 
                 switch (calculations) {
                     case ADD ->
