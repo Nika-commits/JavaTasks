@@ -21,7 +21,7 @@ public class Main {
                 case ADD ->
                         System.out.println("Addition: " + Calculator.Add(number1, number2));
                 case SUBTRACT ->
-                        System.out.println("Subtraction: " + Calculator.Substract(number1, number2));
+                        System.out.println("Subtraction: " + Calculator.Subtract(number1, number2));
                 case MULTIPLY ->
                         System.out.println("Multiplication: " + Calculator.Multiply(number1, number2));
                 case DIVIDE ->
