@@ -9,10 +9,10 @@ public class Main {
         do {
             try {
                 System.out.println("Enter the First number: ");
-                int number1 = scanner.nextInt();
+                float number1 = scanner.nextFloat();
 
                 System.out.println("Enter the Second number: ");
-                int number2 = scanner.nextInt();
+                float number2 = scanner.nextFloat();
 
                 System.out.println("Enter the type of Calculation you want to perform ? (Add, Subtract, Multiply, Divide)");
 

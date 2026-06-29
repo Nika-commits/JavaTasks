@@ -1,18 +1,18 @@
 public class Calculator {
 
-    public static int Add( int number1, int number2){
+    public static float Add( float number1, float number2){
         return number1 + number2;
     }
 
-    public static int Subtract(int number1, int number2){
+    public static float Subtract(float number1, float number2){
         return number1 - number2;
     }
 
-    public static int Multiply(int number1, int number2){
+    public static float Multiply(float number1, float number2){
         return number1 * number2;
     }
 
-    public static int Divide(int number1, int number2){
+    public static float Divide(float number1, float number2){
         return number1/number2;
     }
 
