@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        boolean toContinue = false;
+        boolean toContinue;
 
         do {
             try {
@@ -29,14 +29,14 @@ public class Main {
                     case DIVIDE ->
                             System.out.println("Division: " + Calculator.Divide(number1, number2));
                 }
-             } catch (
-                            java.util.InputMismatchException ex) {
+             }
+            catch (java.util.InputMismatchException ex) {
                 System.out.println("Please input numbers");
-                    } catch     (
-                    IllegalArgumentException ex) {
+                    }
+            catch (IllegalArgumentException ex) {
                 System.out.println("Invalid Calculation Type. ");
-            } catch (
-                    ArithmeticException ex) {
+            }
+            catch (ArithmeticException ex) {
                 System.out.println("Cannot perform calculation");
             }
 
@@ -44,7 +44,7 @@ public class Main {
 
             String answer = scanner.next().toLowerCase();
 
-            toContinue = answer.equals("y");
+            toContinue = answer.equals("y") || answer.equals("yes");
 
         } while (toContinue);
     }
